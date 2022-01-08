@@ -33,13 +33,13 @@ namespace cs06_paskaita_WindowsForms
             richTextBox2.AppendText($"\r\nMalonu tave matyti");
         }
 
-        //paspaudus mygtuką parodyti savo vardą ir šiandienos datą
+        // Paspaudus mygtuką parodyti savo vardą ir šiandienos datą
         private void button3_Click(object sender, EventArgs e)
         {
             richTextBox3.Text = $"Vardas {richTextBox1.Text}";
-            richTextBox3.Text = $"\r\n{DateTime.Now}";
+            richTextBox3.AppendText($"\r\n{DateTime.Now}");
         }
-        //paspaudus mygtuk1 i6vesti savo vard1 10 kartų
+        //paspaudus mygtuką išvesti savo vardą 10 kartų
         private void button4_Click(object sender, EventArgs e)
         {
             for (int i = 0; i < 10; i++)
@@ -53,12 +53,12 @@ namespace cs06_paskaita_WindowsForms
         {
             if (int.Parse(richTextBox5.Text) %2 == 0)
             {    
-                richTextBox4.AppendText($"\nSkaičius {richTextBox5.Text} yra lyginis");
+                richTextBox4.Text = $"Skaičius {richTextBox5.Text} yra lyginis";
                 return;
             }
             else
             {
-                richTextBox4.AppendText($"\nSkaičius {richTextBox5.Text} yra nelyginis");
+                richTextBox4.Text = $"Skaičius {richTextBox5.Text} yra nelyginis";
             }
         }
 

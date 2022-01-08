@@ -46,11 +46,20 @@
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(151, 42);
+            this.richTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.richTextBox1.Location = new System.Drawing.Point(93, 13);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(100, 23);
             this.richTextBox1.TabIndex = 0;
@@ -59,79 +68,85 @@
             // 
             // richTextBox2
             // 
-            this.richTextBox2.Location = new System.Drawing.Point(70, 100);
+            this.richTextBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.richTextBox2.Location = new System.Drawing.Point(12, 71);
             this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(181, 127);
+            this.richTextBox2.Size = new System.Drawing.Size(181, 81);
             this.richTextBox2.TabIndex = 1;
             this.richTextBox2.Text = "";
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(70, 71);
+            this.button2.Location = new System.Drawing.Point(12, 42);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(181, 23);
             this.button2.TabIndex = 3;
-            this.button2.Text = "button2";
+            this.button2.Text = "\'Sup";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // richTextBox3
             // 
-            this.richTextBox3.Location = new System.Drawing.Point(257, 100);
+            this.richTextBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.richTextBox3.Location = new System.Drawing.Point(238, 71);
             this.richTextBox3.Name = "richTextBox3";
-            this.richTextBox3.Size = new System.Drawing.Size(181, 127);
+            this.richTextBox3.Size = new System.Drawing.Size(181, 156);
             this.richTextBox3.TabIndex = 4;
             this.richTextBox3.Text = "";
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(257, 71);
+            this.button3.Location = new System.Drawing.Point(238, 42);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(181, 23);
             this.button3.TabIndex = 5;
-            this.button3.Text = "button3";
+            this.button3.Text = "Name+Date";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(445, 100);
+            this.button4.Location = new System.Drawing.Point(426, 71);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(79, 32);
             this.button4.TabIndex = 6;
-            this.button4.Text = "button4";
+            this.button4.Text = "10x Name";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // richTextBox4
             // 
-            this.richTextBox4.Location = new System.Drawing.Point(257, 233);
+            this.richTextBox4.BackColor = System.Drawing.SystemColors.Info;
+            this.richTextBox4.Location = new System.Drawing.Point(622, 306);
             this.richTextBox4.Name = "richTextBox4";
-            this.richTextBox4.Size = new System.Drawing.Size(181, 96);
+            this.richTextBox4.Size = new System.Drawing.Size(137, 23);
             this.richTextBox4.TabIndex = 7;
             this.richTextBox4.Text = "";
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(176, 233);
+            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button5.Location = new System.Drawing.Point(541, 306);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(75, 23);
             this.button5.TabIndex = 8;
-            this.button5.Text = "button5";
+            this.button5.Text = "%2?";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // richTextBox5
             // 
-            this.richTextBox5.Location = new System.Drawing.Point(70, 233);
+            this.richTextBox5.BackColor = System.Drawing.SystemColors.Info;
+            this.richTextBox5.Location = new System.Drawing.Point(463, 306);
             this.richTextBox5.Name = "richTextBox5";
-            this.richTextBox5.Size = new System.Drawing.Size(100, 23);
+            this.richTextBox5.Size = new System.Drawing.Size(70, 23);
             this.richTextBox5.TabIndex = 9;
             this.richTextBox5.Text = "";
             // 
             // richTextBox6
             // 
-            this.richTextBox6.Location = new System.Drawing.Point(445, 186);
+            this.richTextBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.richTextBox6.Location = new System.Drawing.Point(140, 283);
             this.richTextBox6.Name = "richTextBox6";
             this.richTextBox6.Size = new System.Drawing.Size(68, 41);
             this.richTextBox6.TabIndex = 10;
@@ -139,7 +154,8 @@
             // 
             // richTextBox7
             // 
-            this.richTextBox7.Location = new System.Drawing.Point(445, 233);
+            this.richTextBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.richTextBox7.Location = new System.Drawing.Point(139, 330);
             this.richTextBox7.Name = "richTextBox7";
             this.richTextBox7.Size = new System.Drawing.Size(69, 41);
             this.richTextBox7.TabIndex = 11;
@@ -147,7 +163,8 @@
             // 
             // richTextBox8
             // 
-            this.richTextBox8.Location = new System.Drawing.Point(446, 280);
+            this.richTextBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.richTextBox8.Location = new System.Drawing.Point(139, 377);
             this.richTextBox8.Name = "richTextBox8";
             this.richTextBox8.Size = new System.Drawing.Size(68, 41);
             this.richTextBox8.TabIndex = 12;
@@ -155,7 +172,8 @@
             // 
             // richTextBox9
             // 
-            this.richTextBox9.Location = new System.Drawing.Point(597, 186);
+            this.richTextBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.richTextBox9.Location = new System.Drawing.Point(294, 283);
             this.richTextBox9.Name = "richTextBox9";
             this.richTextBox9.Size = new System.Drawing.Size(117, 135);
             this.richTextBox9.TabIndex = 13;
@@ -163,58 +181,144 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(597, 327);
+            this.button6.Location = new System.Drawing.Point(294, 424);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(75, 23);
             this.button6.TabIndex = 14;
-            this.button6.Text = "button6";
+            this.button6.Text = "Calc";
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(519, 204);
+            this.button7.Location = new System.Drawing.Point(214, 292);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(75, 23);
             this.button7.TabIndex = 15;
-            this.button7.Text = "button7";
+            this.button7.Text = "+";
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(519, 251);
+            this.button8.Location = new System.Drawing.Point(213, 339);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(75, 23);
             this.button8.TabIndex = 16;
-            this.button8.Text = "button8";
+            this.button8.Text = "+";
             this.button8.UseVisualStyleBackColor = true;
             this.button8.Click += new System.EventHandler(this.button8_Click_1);
             // 
             // button9
             // 
-            this.button9.Location = new System.Drawing.Point(519, 298);
+            this.button9.Location = new System.Drawing.Point(213, 386);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(75, 23);
             this.button9.TabIndex = 17;
-            this.button9.Text = "button9";
+            this.button9.Text = "+";
             this.button9.UseVisualStyleBackColor = true;
             this.button9.Click += new System.EventHandler(this.button9_Click_1);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(110, 45);
+            this.label1.Location = new System.Drawing.Point(52, 16);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.Size = new System.Drawing.Size(40, 13);
             this.label1.TabIndex = 18;
-            this.label1.Text = "label1";
+            this.label1.Text = "Vardas";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(239, 15);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(284, 13);
+            this.label2.TabIndex = 19;
+            this.label2.Text = "Paspaudus mygtuką parodyti savo vardą ir šiandienos datą";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(511, 81);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(248, 13);
+            this.label3.TabIndex = 20;
+            this.label3.Text = "<-- Paspaudus mygtuką išvesti savo vardą 10 kartų";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(460, 286);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(299, 13);
+            this.label4.TabIndex = 21;
+            this.label4.Text = "Mygtuko paspaudimu parodyti ar tai lyginis ar nelygnis skaičius";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(7, 256);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(411, 13);
+            this.label5.TabIndex = 22;
+            this.label5.Text = "Sukurti 3 įvedimo laukus \"Pirmas semestras\", \"antras semestras\", \"trečias semestr" +
+    "as\",";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.ForeColor = System.Drawing.Color.Blue;
+            this.label6.Location = new System.Drawing.Point(294, 454);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(44, 13);
+            this.label6.TabIndex = 23;
+            this.label6.Text = "Vidurkis";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.ForeColor = System.Drawing.Color.Red;
+            this.label7.Location = new System.Drawing.Point(69, 292);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(65, 13);
+            this.label7.TabIndex = 24;
+            this.label7.Text = "Semestras 1";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.ForeColor = System.Drawing.Color.Lime;
+            this.label8.Location = new System.Drawing.Point(68, 339);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(65, 13);
+            this.label8.TabIndex = 25;
+            this.label8.Text = "Semestras 2";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.label9.Location = new System.Drawing.Point(68, 386);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(65, 13);
+            this.label9.TabIndex = 26;
+            this.label9.Text = "Semestras 3";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(800, 713);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
@@ -260,6 +364,14 @@
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
     }
 }
 
