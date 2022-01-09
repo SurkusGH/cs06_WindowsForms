@@ -102,7 +102,6 @@ namespace cs06_paskaita_WindowsForms
             richTextBox9.AppendText($"\nVidurkis: {calc/counter}");
         }
 
-
         private void button7_Click(object sender, EventArgs e)
         {
             list1Sem.Add(int.Parse(richTextBox6.Text));
@@ -116,6 +115,67 @@ namespace cs06_paskaita_WindowsForms
         private void button9_Click_1(object sender, EventArgs e)
         {
             list3Sem.Add(int.Parse(richTextBox8.Text));
+        }
+
+
+        //Globalūs kintamieji <-- iš esmės reiškia, kad kintamieji yra pasiekiami uš betkurios vietos programoje
+
+        List<double> Weight = new List<double>();
+        List<double> Height = new List<double>();
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Height.Add(double.Parse(richTextBox10.Text));
+            Weight.Add(double.Parse(richTextBox11.Text));
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < Weight.Count(); i++)
+            {
+                richTextBox12.AppendText($"\rĮvestis #{i+1}"); // <--kadangi indeksacija nuo nulio, vartotojui rodome nuo 1
+                richTextBox12.AppendText($"\n   Ūgis {Height[i]}");
+                richTextBox12.AppendText($"\n Svoris {Weight[i]}");
+            }
+        }
+        // KMI skaičiuoklė
+        // KMI = masė (Kg)/ (ūgis(m)pow(ūgis,2)
+        // 18,5 > KMI asmuo yra nusilpęs ir svoris per mažas
+        // 18,5 - 25  - idealus kūno masės indeksas
+        // 25 - 30 asmuo turi antsvorį
+        // 30 < KMI - asmuo yra nutukęs
+
+        //Kadangi ankstenio pavyzdžio pusė yra analogiška daliai šito uždavinio, nebesikartoju
+        List<double> KMI = new List<double>();
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < Weight.Count(); i++)
+            {
+                KMI.Add(Weight[i] / Math.Pow((Height[i]/100), 2)); // <-- Čia mes susimetame KMI reikšmes į KMI list'ą
+            }
+            // Tuomet mes su if'u foreach'e pasidarome skirstytuvą:
+            foreach (var index in KMI)
+            {
+                if (index < 18.5) richTextBox13.AppendText($"\nSvorio - {Weight[KMI.IndexOf(index)]}" +
+                    $"\n ir ūgio - {Height[KMI.IndexOf(index)]} " +
+                    $"\nKMI yra {index}," +
+                    $"\n kategorizacija: 18,5 > KMI asmuo yra nusilpęs ir svoris per mažas");
+                if (index >= 18.5 && index <25) richTextBox13.AppendText($"\nSvorio {Weight[KMI.IndexOf(index)]}" +
+                    $"\n ir ūgio {Height[KMI.IndexOf(index)]} " +
+                    $"\nKMI yra {index}," +
+                    $"\nkategorizacija: 18,5 < KMI < 25  - idealus kūno masės indeksas");
+                if (index >= 25 && index <= 30) richTextBox13.AppendText($"\nSvorio {Weight[KMI.IndexOf(index)]}" +
+                     $"\n ir ūgio {Height[KMI.IndexOf(index)]} " +
+                     $"\nKMI yra {index}," +
+                     $"\nkategorizacija: 25 < KMI < 30 asmuo turi antsvorį");
+                if (index > 30) richTextBox13.AppendText($"\nSvorio {Weight[KMI.IndexOf(index)]}" +
+                     $"\n ir ūgio {Height[KMI.IndexOf(index)]} " +
+                     $"\nKMI yra {index}," +
+                     $"\nkategorizacija: 30 < KMI - asmuo yra nutukęs");
+            }
+
+            // richTextBox13.AppendText
         }
     }
 }

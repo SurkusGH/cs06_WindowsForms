@@ -54,6 +54,16 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.richTextBox10 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox11 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox12 = new System.Windows.Forms.RichTextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.richTextBox13 = new System.Windows.Forms.RichTextBox();
+            this.label12 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // richTextBox1
@@ -305,12 +315,112 @@
             this.label9.TabIndex = 26;
             this.label9.Text = "Semestras 3";
             // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(64, 513);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(28, 13);
+            this.label10.TabIndex = 27;
+            this.label10.Text = "Ūgis";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(56, 546);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(36, 13);
+            this.label11.TabIndex = 28;
+            this.label11.Text = "Svoris";
+            // 
+            // richTextBox10
+            // 
+            this.richTextBox10.Location = new System.Drawing.Point(98, 510);
+            this.richTextBox10.Name = "richTextBox10";
+            this.richTextBox10.Size = new System.Drawing.Size(82, 23);
+            this.richTextBox10.TabIndex = 35;
+            this.richTextBox10.Text = "";
+            // 
+            // richTextBox11
+            // 
+            this.richTextBox11.Location = new System.Drawing.Point(98, 543);
+            this.richTextBox11.Name = "richTextBox11";
+            this.richTextBox11.Size = new System.Drawing.Size(82, 21);
+            this.richTextBox11.TabIndex = 34;
+            this.richTextBox11.Text = "";
+            // 
+            // richTextBox12
+            // 
+            this.richTextBox12.Location = new System.Drawing.Point(186, 510);
+            this.richTextBox12.Name = "richTextBox12";
+            this.richTextBox12.Size = new System.Drawing.Size(198, 56);
+            this.richTextBox12.TabIndex = 31;
+            this.richTextBox12.Text = "";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(97, 573);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(83, 23);
+            this.button1.TabIndex = 32;
+            this.button1.Text = "Pridėti";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button10
+            // 
+            this.button10.Location = new System.Drawing.Point(187, 572);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(197, 23);
+            this.button10.TabIndex = 33;
+            this.button10.Text = "Parodyti masyvą";
+            this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
+            // 
+            // button11
+            // 
+            this.button11.Location = new System.Drawing.Point(390, 536);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(75, 23);
+            this.button11.TabIndex = 36;
+            this.button11.Text = "Calc";
+            this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
+            // 
+            // richTextBox13
+            // 
+            this.richTextBox13.Location = new System.Drawing.Point(471, 510);
+            this.richTextBox13.Name = "richTextBox13";
+            this.richTextBox13.Size = new System.Drawing.Size(288, 86);
+            this.richTextBox13.TabIndex = 37;
+            this.richTextBox13.Text = "";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
+            this.label12.Location = new System.Drawing.Point(405, 513);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(60, 20);
+            this.label12.TabIndex = 38;
+            this.label12.Text = "KMI -->";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 713);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.richTextBox13);
+            this.Controls.Add(this.button11);
+            this.Controls.Add(this.button10);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.richTextBox12);
+            this.Controls.Add(this.richTextBox11);
+            this.Controls.Add(this.richTextBox10);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
@@ -338,7 +448,7 @@
             this.Controls.Add(this.richTextBox2);
             this.Controls.Add(this.richTextBox1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "a";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -372,6 +482,16 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.RichTextBox richTextBox10;
+        private System.Windows.Forms.RichTextBox richTextBox11;
+        private System.Windows.Forms.RichTextBox richTextBox12;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.RichTextBox richTextBox13;
+        private System.Windows.Forms.Label label12;
     }
 }
 
