@@ -64,6 +64,19 @@
             this.button11 = new System.Windows.Forms.Button();
             this.richTextBox13 = new System.Windows.Forms.RichTextBox();
             this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.richTextBox14 = new System.Windows.Forms.RichTextBox();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.richTextBox15 = new System.Windows.Forms.RichTextBox();
+            this.button14 = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
+            this.button16 = new System.Windows.Forms.Button();
+            this.richTextBox16 = new System.Windows.Forms.RichTextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // richTextBox1
@@ -405,12 +418,145 @@
             this.label12.TabIndex = 38;
             this.label12.Text = "KMI -->";
             // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(892, 124);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(45, 13);
+            this.label13.TabIndex = 39;
+            this.label13.Text = "Pažimys";
+            // 
+            // richTextBox14
+            // 
+            this.richTextBox14.Location = new System.Drawing.Point(943, 121);
+            this.richTextBox14.Name = "richTextBox14";
+            this.richTextBox14.Size = new System.Drawing.Size(50, 23);
+            this.richTextBox14.TabIndex = 40;
+            this.richTextBox14.Text = "";
+            // 
+            // button12
+            // 
+            this.button12.Location = new System.Drawing.Point(893, 151);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(100, 23);
+            this.button12.TabIndex = 41;
+            this.button12.Text = "Pridėti pažymį";
+            this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
+            // 
+            // button13
+            // 
+            this.button13.Location = new System.Drawing.Point(893, 181);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(100, 23);
+            this.button13.TabIndex = 42;
+            this.button13.Text = "Ištrinti pažymėtą";
+            this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
+            // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Location = new System.Drawing.Point(999, 121);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(97, 251);
+            this.listBox1.TabIndex = 43;
+            // 
+            // richTextBox15
+            // 
+            this.richTextBox15.Location = new System.Drawing.Point(914, 484);
+            this.richTextBox15.Name = "richTextBox15";
+            this.richTextBox15.Size = new System.Drawing.Size(33, 23);
+            this.richTextBox15.TabIndex = 44;
+            this.richTextBox15.Text = "";
+            // 
+            // button14
+            // 
+            this.button14.Location = new System.Drawing.Point(953, 454);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(75, 23);
+            this.button14.TabIndex = 45;
+            this.button14.Text = "į °F";
+            this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
+            // 
+            // button15
+            // 
+            this.button15.Location = new System.Drawing.Point(953, 484);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(75, 23);
+            this.button15.TabIndex = 46;
+            this.button15.Text = "į °K";
+            this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
+            // 
+            // button16
+            // 
+            this.button16.Location = new System.Drawing.Point(953, 513);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(75, 23);
+            this.button16.TabIndex = 47;
+            this.button16.Text = "į °Ré";
+            this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
+            // 
+            // richTextBox16
+            // 
+            this.richTextBox16.Location = new System.Drawing.Point(1034, 484);
+            this.richTextBox16.Name = "richTextBox16";
+            this.richTextBox16.Size = new System.Drawing.Size(56, 23);
+            this.richTextBox16.TabIndex = 48;
+            this.richTextBox16.Text = "";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
+            this.label14.Location = new System.Drawing.Point(879, 484);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(29, 24);
+            this.label14.TabIndex = 49;
+            this.label14.Text = "°C";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
+            this.label15.Location = new System.Drawing.Point(1096, 484);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(16, 24);
+            this.label15.TabIndex = 50;
+            this.label15.Text = "°";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(880, 429);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(57, 13);
+            this.label16.TabIndex = 51;
+            this.label16.Text = "Temp calc";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(800, 713);
+            this.ClientSize = new System.Drawing.Size(1215, 713);
+            this.Controls.Add(this.label16);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.richTextBox16);
+            this.Controls.Add(this.button16);
+            this.Controls.Add(this.button15);
+            this.Controls.Add(this.button14);
+            this.Controls.Add(this.richTextBox15);
+            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.button13);
+            this.Controls.Add(this.button12);
+            this.Controls.Add(this.richTextBox14);
+            this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.richTextBox13);
             this.Controls.Add(this.button11);
@@ -492,6 +638,19 @@
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.RichTextBox richTextBox13;
         private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.RichTextBox richTextBox14;
+        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.RichTextBox richTextBox15;
+        private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.RichTextBox richTextBox16;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label16;
     }
 }
 

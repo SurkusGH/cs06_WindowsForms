@@ -79,9 +79,9 @@ namespace cs06_paskaita_WindowsForms
             foreach (var item in list1Sem)
             {
                 richTextBox9.AppendText($"\n{item}");
-                calc += item;
-                counter++;
-            }
+                calc += item; // <-- šitas kintamasis yra skirtas sumai visų pažymių gauti
+                counter++;    // <-- šitas kintamasis yra skirtas pažymių (kaip atskirų vienetų) skaičiui gauti
+            }                 //     aišku galima tiesiog paskui būtų list1Sem.Count()+list2Sem.Count()+list2Sem.Count() naudoti
 
             richTextBox9.AppendText($"\nAntras semestras: ");
             foreach (var item in list2Sem)
@@ -157,6 +157,7 @@ namespace cs06_paskaita_WindowsForms
             // Tuomet mes su if'u foreach'e pasidarome skirstytuvą:
             foreach (var index in KMI)
             {
+                richTextBox12.AppendText($"\rĮvesties #{KMI.IndexOf(index) + 1} KMI:"); // <-- čia tiesiog mandras būdas foreach'e nusitaikyti į index'ą list'e. For'e tiesiog [i] būtų
                 if (index < 18.5) richTextBox13.AppendText($"\nSvorio - {Weight[KMI.IndexOf(index)]}" +
                     $"\n ir ūgio - {Height[KMI.IndexOf(index)]} " +
                     $"\nKMI yra {index}," +
@@ -174,8 +175,55 @@ namespace cs06_paskaita_WindowsForms
                      $"\nKMI yra {index}," +
                      $"\nkategorizacija: 30 < KMI - asmuo yra nutukęs");
             }
+        }
 
-            // richTextBox13.AppendText
+
+        // Listbox
+        private void button12_Click(object sender, EventArgs e) // <-- Mygtuko paspaudimas ideda reikšmę į listą'.
+        {
+            listBox1.Items.Add(int.Parse(richTextBox14.Text)); // <-- Būtinas parse naudojimas, nes by default priimamas stringo tipo variable);
+        }                                                      //     Galbūt verta atkreipti dėmesį, kad listo jokio nebekuriu
+                                                               //     Listbox'as kaip funkcija viską jau turi savyje
+        private void button13_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Remove(listBox1.Items[listBox1.SelectedIndex]);
+        }// listBox1.Items.Remove <-- nurodo ką mes darysime / kuo ar kokiu objektu manipuliuojame
+
+
+        //                      (listBox1.Items <-- nurodo iš kur trinsime
+        //                                     [listBox1.SelectedIndex]); <-- nurodo, kad trinsime pažymėta index'ą (Formoje pačioje)
+        // alternatyviai stackoverflow sprendimai, galima ir su if tą daryti ir su while ir foreach.
+        // https://stackoverflow.com/questions/13149486/delete-selected-items-from-listbox
+        // Ne iki galo suprantu alternatyvius sprendimus trynimui;
+
+
+        // Temperatūros skaičiuoklės
+        private void button14_Click(object sender, EventArgs e)
+        {
+            double CtoF = double.Parse(richTextBox15.Text); // <-- Susukuriu kintąjį ir sakau, kad box'e15 daiktas yra jo value (parse'inu, su stringu matematika negalima)
+            CtoF = CtoF * 1.8 + 32;                         // <-- tą value konfertuoju pagal formulę ir priskiriu naują reikšmę
+            richTextBox16.Text = CtoF.ToString();           // <-- konvertuoju double į string'ą ir spausdinu box16
+                                                            //     nenaudoju AppendText, kad nesikauptų langelyje skaičiai
+            // C° to F°: Celsius to Fahrenheit Conversion Formula
+            // To convert temperatures in degrees Celsius to Fahrenheit
+            // multiply by 1.8(or 9 / 5) and add 32.
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            // Čia aprašysiu labiau supresuotu būdu tą patį kaip ir prieš tai (tik formulė kita)
+            richTextBox16.Text = (double.Parse(richTextBox15.Text) + 273.15).ToString(); // <-- nieko neinicijuoju tik pasakau, kaip pakeisti ir spausdinti
+                                                                                         //     (ta prasme rankiniu būdu; pagal nutylėjimą tikriausiai vistiek kažkas inicializuojasi)
+            //According to the Celsius to Kelvin formula, by adding 273.15,
+            //the temperature in Celsius can be converted to the temperature in Kelvin.
+            //Thus, 0°C = 0 + 273.15 = 273.15 K.
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            richTextBox16.Text = (double.Parse(richTextBox15.Text) * 0.8).ToString();
+            // iš rečiau naudojamų skalių pažymėtina Reomūrio skalė
+            // R = 0.8 * C
         }
     }
 }
