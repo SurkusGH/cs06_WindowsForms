@@ -92,6 +92,7 @@
             // richTextBox2
             // 
             this.richTextBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.richTextBox2.Cursor = System.Windows.Forms.Cursors.No;
             this.richTextBox2.Location = new System.Drawing.Point(12, 71);
             this.richTextBox2.Name = "richTextBox2";
             this.richTextBox2.Size = new System.Drawing.Size(181, 81);
@@ -100,6 +101,7 @@
             // 
             // button2
             // 
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.Location = new System.Drawing.Point(12, 42);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(181, 23);
@@ -111,6 +113,7 @@
             // richTextBox3
             // 
             this.richTextBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.richTextBox3.Cursor = System.Windows.Forms.Cursors.No;
             this.richTextBox3.Location = new System.Drawing.Point(238, 71);
             this.richTextBox3.Name = "richTextBox3";
             this.richTextBox3.Size = new System.Drawing.Size(181, 156);
@@ -119,6 +122,7 @@
             // 
             // button3
             // 
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.Location = new System.Drawing.Point(238, 42);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(181, 23);
@@ -129,6 +133,7 @@
             // 
             // button4
             // 
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button4.Location = new System.Drawing.Point(426, 71);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(79, 32);
@@ -140,7 +145,8 @@
             // richTextBox4
             // 
             this.richTextBox4.BackColor = System.Drawing.SystemColors.Info;
-            this.richTextBox4.Location = new System.Drawing.Point(622, 306);
+            this.richTextBox4.Cursor = System.Windows.Forms.Cursors.No;
+            this.richTextBox4.Location = new System.Drawing.Point(622, 425);
             this.richTextBox4.Name = "richTextBox4";
             this.richTextBox4.Size = new System.Drawing.Size(137, 23);
             this.richTextBox4.TabIndex = 7;
@@ -149,7 +155,8 @@
             // button5
             // 
             this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button5.Location = new System.Drawing.Point(541, 306);
+            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button5.Location = new System.Drawing.Point(541, 425);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(75, 23);
             this.button5.TabIndex = 8;
@@ -160,7 +167,7 @@
             // richTextBox5
             // 
             this.richTextBox5.BackColor = System.Drawing.SystemColors.Info;
-            this.richTextBox5.Location = new System.Drawing.Point(463, 306);
+            this.richTextBox5.Location = new System.Drawing.Point(463, 425);
             this.richTextBox5.Name = "richTextBox5";
             this.richTextBox5.Size = new System.Drawing.Size(70, 23);
             this.richTextBox5.TabIndex = 9;
@@ -196,14 +203,16 @@
             // richTextBox9
             // 
             this.richTextBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.richTextBox9.Cursor = System.Windows.Forms.Cursors.No;
             this.richTextBox9.Location = new System.Drawing.Point(294, 283);
             this.richTextBox9.Name = "richTextBox9";
-            this.richTextBox9.Size = new System.Drawing.Size(117, 135);
+            this.richTextBox9.Size = new System.Drawing.Size(125, 135);
             this.richTextBox9.TabIndex = 13;
             this.richTextBox9.Text = "";
             // 
             // button6
             // 
+            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button6.Location = new System.Drawing.Point(294, 424);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(75, 23);
@@ -214,6 +223,7 @@
             // 
             // button7
             // 
+            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button7.Location = new System.Drawing.Point(214, 292);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(75, 23);
@@ -224,6 +234,7 @@
             // 
             // button8
             // 
+            this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button8.Location = new System.Drawing.Point(213, 339);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(75, 23);
@@ -234,6 +245,7 @@
             // 
             // button9
             // 
+            this.button9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button9.Location = new System.Drawing.Point(213, 386);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(75, 23);
@@ -263,7 +275,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(511, 81);
+            this.label3.Location = new System.Drawing.Point(425, 106);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(248, 13);
             this.label3.TabIndex = 20;
@@ -272,7 +284,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(460, 286);
+            this.label4.Location = new System.Drawing.Point(460, 405);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(299, 13);
             this.label4.TabIndex = 21;
@@ -292,7 +304,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.ForeColor = System.Drawing.Color.Blue;
-            this.label6.Location = new System.Drawing.Point(294, 454);
+            this.label6.Location = new System.Drawing.Point(375, 429);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(44, 13);
             this.label6.TabIndex = 23;
@@ -364,6 +376,7 @@
             // 
             // richTextBox12
             // 
+            this.richTextBox12.Cursor = System.Windows.Forms.Cursors.No;
             this.richTextBox12.Location = new System.Drawing.Point(186, 510);
             this.richTextBox12.Name = "richTextBox12";
             this.richTextBox12.Size = new System.Drawing.Size(198, 56);
@@ -372,6 +385,7 @@
             // 
             // button1
             // 
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Location = new System.Drawing.Point(97, 573);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(83, 23);
@@ -382,6 +396,7 @@
             // 
             // button10
             // 
+            this.button10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button10.Location = new System.Drawing.Point(187, 572);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(197, 23);
@@ -392,6 +407,7 @@
             // 
             // button11
             // 
+            this.button11.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button11.Location = new System.Drawing.Point(390, 536);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(75, 23);
@@ -402,6 +418,7 @@
             // 
             // richTextBox13
             // 
+            this.richTextBox13.Cursor = System.Windows.Forms.Cursors.No;
             this.richTextBox13.Location = new System.Drawing.Point(471, 510);
             this.richTextBox13.Name = "richTextBox13";
             this.richTextBox13.Size = new System.Drawing.Size(288, 86);
@@ -421,7 +438,7 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(892, 124);
+            this.label13.Location = new System.Drawing.Point(696, 21);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(45, 13);
             this.label13.TabIndex = 39;
@@ -429,7 +446,7 @@
             // 
             // richTextBox14
             // 
-            this.richTextBox14.Location = new System.Drawing.Point(943, 121);
+            this.richTextBox14.Location = new System.Drawing.Point(747, 18);
             this.richTextBox14.Name = "richTextBox14";
             this.richTextBox14.Size = new System.Drawing.Size(50, 23);
             this.richTextBox14.TabIndex = 40;
@@ -437,7 +454,8 @@
             // 
             // button12
             // 
-            this.button12.Location = new System.Drawing.Point(893, 151);
+            this.button12.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button12.Location = new System.Drawing.Point(697, 48);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(100, 23);
             this.button12.TabIndex = 41;
@@ -447,7 +465,8 @@
             // 
             // button13
             // 
-            this.button13.Location = new System.Drawing.Point(893, 181);
+            this.button13.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button13.Location = new System.Drawing.Point(697, 78);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(100, 23);
             this.button13.TabIndex = 42;
@@ -458,14 +477,16 @@
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(999, 121);
+            this.listBox1.Location = new System.Drawing.Point(803, 18);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(97, 251);
             this.listBox1.TabIndex = 43;
             // 
             // richTextBox15
             // 
-            this.richTextBox15.Location = new System.Drawing.Point(914, 484);
+            this.richTextBox15.BackColor = System.Drawing.SystemColors.Info;
+            this.richTextBox15.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox15.Location = new System.Drawing.Point(548, 276);
             this.richTextBox15.Name = "richTextBox15";
             this.richTextBox15.Size = new System.Drawing.Size(33, 23);
             this.richTextBox15.TabIndex = 44;
@@ -473,7 +494,8 @@
             // 
             // button14
             // 
-            this.button14.Location = new System.Drawing.Point(953, 454);
+            this.button14.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button14.Location = new System.Drawing.Point(587, 246);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(75, 23);
             this.button14.TabIndex = 45;
@@ -483,7 +505,8 @@
             // 
             // button15
             // 
-            this.button15.Location = new System.Drawing.Point(953, 484);
+            this.button15.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button15.Location = new System.Drawing.Point(587, 276);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(75, 23);
             this.button15.TabIndex = 46;
@@ -493,7 +516,8 @@
             // 
             // button16
             // 
-            this.button16.Location = new System.Drawing.Point(953, 513);
+            this.button16.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button16.Location = new System.Drawing.Point(587, 305);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(75, 23);
             this.button16.TabIndex = 47;
@@ -503,7 +527,10 @@
             // 
             // richTextBox16
             // 
-            this.richTextBox16.Location = new System.Drawing.Point(1034, 484);
+            this.richTextBox16.BackColor = System.Drawing.SystemColors.Info;
+            this.richTextBox16.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox16.Cursor = System.Windows.Forms.Cursors.No;
+            this.richTextBox16.Location = new System.Drawing.Point(668, 276);
             this.richTextBox16.Name = "richTextBox16";
             this.richTextBox16.Size = new System.Drawing.Size(56, 23);
             this.richTextBox16.TabIndex = 48;
@@ -513,7 +540,7 @@
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.label14.Location = new System.Drawing.Point(879, 484);
+            this.label14.Location = new System.Drawing.Point(513, 276);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(29, 24);
             this.label14.TabIndex = 49;
@@ -523,7 +550,7 @@
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.label15.Location = new System.Drawing.Point(1096, 484);
+            this.label15.Location = new System.Drawing.Point(730, 276);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(16, 24);
             this.label15.TabIndex = 50;
@@ -532,11 +559,12 @@
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(880, 429);
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
+            this.label16.Location = new System.Drawing.Point(536, 214);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(57, 13);
+            this.label16.Size = new System.Drawing.Size(158, 29);
             this.label16.TabIndex = 51;
-            this.label16.Text = "Temp calc";
+            this.label16.Text = "🌤️ Temp calc";
             // 
             // Form1
             // 
@@ -593,6 +621,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.richTextBox2);
             this.Controls.Add(this.richTextBox1);
+            this.KeyPreview = true;
             this.Name = "Form1";
             this.Text = "a";
             this.ResumeLayout(false);
