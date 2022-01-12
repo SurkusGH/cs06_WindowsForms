@@ -188,9 +188,7 @@ namespace cs06_paskaita_WindowsForms
         {
             listBox1.Items.Remove(listBox1.Items[listBox1.SelectedIndex]);
         }// listBox1.Items.Remove <-- nurodo ką mes darysime / kuo ar kokiu objektu manipuliuojame
-
-
-        //                      (listBox1.Items <-- nurodo iš kur trinsime
+        //                       (listBox1.Items <-- nurodo iš kur trinsime
         //                                     [listBox1.SelectedIndex]); <-- nurodo, kad trinsime pažymėta index'ą (Formoje pačioje)
         // alternatyviai stackoverflow sprendimai, galima ir su if tą daryti ir su while ir foreach.
         // https://stackoverflow.com/questions/13149486/delete-selected-items-from-listbox
